@@ -145,108 +145,168 @@
 
 [WORD_GROUPS]
 
-# ═══════════════════════════════════════════════════════════════
-#                         企业与品牌
-# ═══════════════════════════════════════════════════════════════
+[OpenAI]
+/Openai/i
+/GPT/i
+/Sora/i
+Strawberry
+Orion
+猎户座
+DALL-E
+DALL·E
+Sam Altm
+Mira Murati
 
-/胖东来|于东来/ => 胖东来
+[/Alphabet]
+/Alphabet/i
+/GOOG/i
+/GOOGL/i
+/Google/i
+/DeepMind/i
+/Gemini/i
+/YouTube/i
+/Android/i
+/Chrome/i
+谷歌
+Alphabet
+Sundar Pichai
+Larry Page
+Demis Hassabis
+Sergey Brin
+Gemma
+PaLM
+Vertex AI
+Project Astra
+AlphaFold
+NotebookLM
+BERT
 
-/DeepSeek|梁文锋/i => DeepSeek
+[Meta]
+/Meta/i
+/Facebook/i
+/Instagram/i
+/Llama/i
+/Metaverse/i
+脸书
+Zuckerberg
+扎克伯格
+Yann LeCun
+Segment Anything
+SAM
+FAIR
 
-/华为|鸿蒙|HarmonyOS|任正非/i => 华为
+[Mistral AI]
+/Mistral/i
+/Mixtral/i
+Arthur Mensch
+Codestral
 
-/比亚迪|王传福|byd/i => 比亚迪
+[X]
+/Grok/i
+/Twitter/i 
+/Aurora/i 
+推特
+Elon Musk
+马斯克
 
-/大疆|\bDJI\b/i => 大疆
+[Microsoft]
+/MSFT/i 
+/Microsoft/i
+微软
+/Copilot/i 
+/Azure/i
 
-/宇树|王兴兴|Unitree/ => 宇树机器人
+[Anthropic]
+/Anthropic/i 
+/Claude/i
+/Skill/i
+/MCP/i
+/Transformer/i
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+[Hugging Face]
+/Hugging Face/i
+拥抱脸
+PEFT
+/AutoTrain/i 
+/Datasets/i 
 
-/黑神话|冯骥/ => 黑神话悟空
+[英伟达]
+/NVIDIA/i
+/NVDA/i 
+英伟达
+/GPU/i
+/CPU/i
+Jensen Huang
+黄仁勋
 
-/影之刃零|梁其伟/ => 影之刃零
+[Apple]
+Apple
+AAPL
+Tim Cook
 
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
+[小外国大模型]
+/AWS/i 
+亚马逊
+/Amazon/i
+AMZN
+/Intel/i
+英特尔
+Oracle
+甲骨文
+ORCL
 
-申奥
+[字节跳动]
+字节跳动
+/ByteDance/i
+火山引擎
+/Volcengine/i
+豆包
+/Doubao/i
+即梦
+/Jimeng/i
+Coze
+云雀大模型
+SeedEdit
+PixelDance
 
-/京东|刘强东/ => 京东
+[阿里]
+/Alibaba/i
+阿里
+阿里巴巴
+通义
+/Qwen/i
+魔搭
+/ModelScope/i
 
-/字节|bytedance|张一鸣/i => 字节跳动
+[百度]
+文心一言
+文心大模型
+ERNIE
+飞桨
+PaddlePaddle
+千帆平台
 
-/qwen|minimax|glm/ => 国产开源模型
+[智谱]
+智谱
+清言
+/Zhipu/i
+/GLM/i
 
-/特斯拉|马斯克/ => 特斯拉
+[DeepSeek]
+/DeepSeek/i
+幻方量化
+深度求索
+梁文锋
 
-/英伟达|\bNVIDIA\b|黄仁勋/i => 英伟达
-/\bAMD\b/i => AMD
-
-/微软|\bMicrosoft\b/i => 微软
-/谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
-/\biphone\b|\bipad\b|\bmac\b|\bios\b/i => 苹果
-
-/\bchatgpt\b|\bopenai\b|\bsora\b/i => OpenAI
-/\bclaude\b|anthropic/i => Claude
-
-
-# ═══════════════════════════════════════════════════════════════
-#                         国家与地区
-# ═══════════════════════════════════════════════════════════════
-
-[中国]
-国产
-中国
-
-[东亚]
-日本
-朝鲜
-韩国
-
-[北美]
-美国
-加拿大
-
-[西欧]
-法国
-英国
-
-/俄罗斯|俄国/ => 俄罗斯
-
-印度
-
-
-# ═══════════════════════════════════════════════════════════════
-#                         科技领域
-# ═══════════════════════════════════════════════════════════════
-
-[AI 相关]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/i
-人工智能
-
-[芯片]
-芯片
-光刻机
-半导体
-
-/水电|雅鲁藏布江/ => 水电
-/光伏|太阳能/ => 光伏
-核能
-能源
-
-/自动驾驶|无人驾驶|智驾/ => 自动驾驶
-
-机器人
-/机械狗|四足/ => 机器狗
-具身智能
-
-/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
-
-# 前沿科技
-量子
-脑机
-基因
-
-# 产业政策
-生产力
+[小国产大模型]
+/MiniMax/i
+月之暗面
+/Moonshot/i
+/Kimi/i
+讯飞星火
+盘古大模型 
+超级小爱
+/MIMO/i
+/LongCat/i
+混元
+/Hunyuan/i
