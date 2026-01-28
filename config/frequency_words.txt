@@ -219,9 +219,7 @@ Elon Musk
 [Anthropic]
 /Anthropic/i 
 /Claude/i
-/Skill/i
-/MCP/i
-/Transformer/i
+
 
 [Hugging Face]
 /Hugging Face/i
@@ -232,7 +230,6 @@ PEFT
 
 [英伟达]
 /NVIDIA/i
-/NVDA/i 
 英伟达
 /GPU/i
 /CPU/i
@@ -271,8 +268,6 @@ PixelDance
 
 [阿里]
 /Alibaba/i
-阿里
-阿里巴巴
 通义
 /Qwen/i
 魔搭
@@ -310,3 +305,28 @@ PaddlePaddle
 /LongCat/i
 混元
 /Hunyuan/i
+
+[AI技术]
+/RAG/i
+/Deepreaserch/i
+/Agent/i
+/Cursor/i
+机器学习
+深度学习
+/CNN/i
+深度神经网络
+强化学习
+RL
+卷积
+LLM
+模型
+/git/
+/langchain/i
+/autogen/i
+/minus/i
+/langgraph/i
+/docker/i
+/Skill/i
+/MCP/i
+/Transformer/i
+
