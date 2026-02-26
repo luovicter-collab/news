@@ -329,4 +329,10 @@ LLM
 /Skill/i
 /MCP/i
 /Transformer/i
-/openclaw/i
+
+
+[OpenClaw]
+/OpenClaw/i
+/clawbot/i
+/clawdhub/i
+
